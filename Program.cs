@@ -1,20 +1,13 @@
 ﻿using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.Entities;
-using DSharpPlus.EventArgs;
 using DSharpPlus.VoiceNext;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using System.Timers;
-using Microsoft.Data.Sqlite;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace Choker
 {

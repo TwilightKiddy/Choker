@@ -1,10 +1,8 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
+﻿using Choker.Properties;
+using Microsoft.Data.Sqlite;
 using System.Collections.Generic;
-using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Choker.Properties;
 
 namespace Choker
 {

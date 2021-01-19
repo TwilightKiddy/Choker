@@ -1,12 +1,11 @@
-﻿using DSharpPlus.CommandsNext;
+﻿using DSharpPlus;
+using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
-using DSharpPlus;
+using DSharpPlus.Entities;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using DSharpPlus.Entities;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Choker
 {
@@ -42,7 +41,7 @@ namespace Choker
             [Description("A level that should be assigned to a role. Must be in range from 0 to 999.")]
             uint level,
             [RemainingText]
-            [Description("Target role. May be a number from the `list`, may be an ID, may be a name.")]
+            [Description("Target role. May be either a number from the `list`, an ID or role's name.")]
             string role)
         {
             if (level < 0)

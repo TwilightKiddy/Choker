@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
-using DSharpPlus;
 using DSharpPlus.Entities;
 using DSharpPlus.VoiceNext;
-using System.IO;
-using System.Linq;
-using System.Net.Http;
 using DSharpPlus.VoiceNext.EventArgs;
-using System.Threading;
-using System.Diagnostics;
-using Microsoft.Data.Sqlite;
 using R128.Lufs;
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Timer = System.Timers.Timer;
 
 namespace Choker
