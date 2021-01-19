@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS servers (
+  id INTEGER PRIMARY KEY,
+  prefixes TEXT DEFAULT '[]',
+  interval INTEGER DEFAULT 300,
+  mute_time INTEGER DEFAULT 3000,
+  max_loudness REAL DEFAULT 95.0
+) WITHOUT ROWID;
